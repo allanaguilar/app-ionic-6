@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ListPageRoutingModule } from './list-routing.module';
+import { ListReorderPageRoutingModule } from './list-reorder-routing.module';
 
-import { ListPage } from './list.page';
+import { ListReorderPage } from './list-reorder.page';
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from '../../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ListPageRoutingModule,
+    ListReorderPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [ListPage]
+  declarations: [ListReorderPage]
 })
-export class ListPageModule {}
+export class ListReorderPageModule {}
